@@ -1,0 +1,23 @@
+ext {
+//    android = [
+//            compileSdkVersion       : 26,
+//            buildToolsVersion       : "23.0.3",
+//            minSdkVersion           : 15,
+//            targetSdkVersion        : 26,
+//            androidSupportSdkVersion: "23.4.0",
+//    ]
+
+//    dependencies = [
+//            arouterapi     : 'com.alibaba:arouter-api:1.2.1',
+//            aroutercompiler: 'com.alibaba:arouter-compiler:1.1.2',
+//            supportdesign  : 'com.android.support:design:23.4.0',
+//            recyclerviewv7 : 'com.android.support:recyclerview-v7:23.4.0',
+//            supportv4      : 'com.android.support:support-v4:23.4.0',
+//            appcompatv7    : 'com.android.support:appcompat-v7:23.4.0',
+//            //分包
+//            multidex       : 'com.android.support:multidex:1.0.1',
+//    ]
+    //app1 是否是组件开发模式，true 为是，false 为否
+    isMouleDebugApp = false
+
+}

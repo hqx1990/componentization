@@ -1,0 +1,3 @@
+项目中的模块化参考网址：http://blog.csdn.net/guiying712/article/details/55213884
+
+项目中的路由参考网址：http://xgfe.github.io/2017/03/03/wangweitao/AliActivityRouter/
