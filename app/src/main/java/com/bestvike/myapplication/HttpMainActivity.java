@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import com.bestvike.common.base.BaseActivity;
 import com.bestvike.common.interfaces.DialogListener;
-import com.bestvike.common.utils.PublicData;
 import com.bestvike.common.utils.UiUtil;
 
 
