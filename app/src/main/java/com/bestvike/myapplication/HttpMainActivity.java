@@ -53,7 +53,6 @@ public class HttpMainActivity extends BaseActivity{
                                 dialog.dismiss();
                                 Bundle bundle = new Bundle();
                                 bundle.putString("tag","路由传输数据");
-                                toActivity(PublicData.toMainApp1Activity,bundle);
 
                             }
                         });

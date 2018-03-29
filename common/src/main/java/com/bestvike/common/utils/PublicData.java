@@ -6,5 +6,5 @@ package com.bestvike.common.utils;
  */
 
 public class PublicData {
-    public static final String toMainApp1Activity = "/app/MainApp1Activity";
+    public static final String toMainApp1Activity = "/com/MainApp1Activity";
 }

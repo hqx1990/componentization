@@ -8,9 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.alibaba.android.arouter.facade.Postcard;
-import com.alibaba.android.arouter.facade.callback.NavigationCallback;
-import com.alibaba.android.arouter.launcher.ARouter;
 import com.bestvike.common.interfaces.DialogListener;
 import com.bestvike.common.utils.CheckUtil;
 import com.bestvike.common.utils.ShowDialog;
@@ -103,23 +100,6 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
      * @param url
      */
     public void toActivity(String url,Bundle bundle){
-        if(!CheckUtil.isEmpty(url)){
-            ARouter.getInstance()
-                    .build(url)
-                    .with(bundle)
-                    .navigation(this, new NavigationCallback(){
-                        @Override
-                        public void onFound(Postcard postcard) {
-//                        //找到了要打开的activity
-                            Log.e("---","找到了要打开的activity");
-                        }
 
-                        @Override
-                        public void onLost(Postcard postcard) {
-//                            找不到要打开的activity
-                            Log.e("---","找不到要打开的activity");
-                        }
-                    });
-        }
     }
 }

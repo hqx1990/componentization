@@ -3,7 +3,6 @@ package com.bestvike.common.base;
 import android.app.Application;
 import android.content.Context;
 
-import com.alibaba.android.arouter.launcher.ARouter;
 
 /**
  * Created by use on 2018/3/14.
@@ -18,7 +17,5 @@ public class BaseApplication extends Application{
     public void onCreate() {
         super.onCreate();
         CONTEXT = getApplicationContext();
-        //初始化路由
-        ARouter.init(this);
     }
 }
